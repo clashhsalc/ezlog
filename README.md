@@ -1,6 +1,7 @@
 # ezLog
 
 ![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
+![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen)
 
 A Python script to extract Discord tokens from various web browsers and Discord clients.
 
@@ -41,3 +42,8 @@ Run the script:
 py main.py
 ```
 Follow the on-screen prompts to select and copy a valid token.
+
+## Contributing
+
+I welcome contributions! Please feel free to submit a Pull Request or open an Issue
+
